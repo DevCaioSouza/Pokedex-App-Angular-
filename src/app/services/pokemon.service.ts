@@ -21,3 +21,5 @@ export class PokemonService {
     console.log(this.pokemons)
   }
 }
+
+//https://api.pokemontcg.io/v2/cards?q=set.id:xy1

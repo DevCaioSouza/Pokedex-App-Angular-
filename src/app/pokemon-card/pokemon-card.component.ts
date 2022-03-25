@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./pokemon-card.component.sass']
 })
 
+
 export class PokemonCardComponent{
  @Input()
  'pokemon': string;
@@ -13,11 +14,17 @@ export class PokemonCardComponent{
  @Input()
  'numero': number;
 
-@Input()
-'pokemonId': string;
+ @Input()
+ 'pokemonId': string;
+
+ @Input()
+ 'pokemonType': string;
+
+ 
 
 
  pegarImagemPokemon(){
+   
    const numeroFormatado = (this.numero);
 
    return `https://images.pokemontcg.io/xy1/${numeroFormatado}.png`;

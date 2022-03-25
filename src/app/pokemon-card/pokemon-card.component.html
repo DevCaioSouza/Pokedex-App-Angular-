@@ -1,6 +1,12 @@
-<div class="pokemon-card">
-  <img [src]="pegarImagemPokemon()" alt=""> 
-  <br>
-  <b>{{ pokemon }}</b>
-  {{ '#'+pokemonId }}
+<div class="cards-container">
+
+  <div class="pokemon-card">
+    <img [src]="pegarImagemPokemon()" alt=""> 
+    <br>
+    <b>{{ pokemon }}</b>
+    <span style="background-color: rgb(216, 216, 216); border-radius: 15px; width: 70px;">{{'#'+pokemonId }}</span><i> {{  "Type: "+pokemonType }}</i>
+    
+    
+  </div>
+
 </div>
