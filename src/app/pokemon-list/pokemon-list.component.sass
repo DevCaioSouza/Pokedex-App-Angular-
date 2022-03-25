@@ -1,7 +1,6 @@
 
 .pokemon-list
-  border: 2px solid green
-  width: 80vw
+  width: 90vw
   margin: 0 auto
   display: grid
   gap: 10px
@@ -11,6 +10,9 @@
   .pokemon-list 
     grid-template-columns: repeat(3, 1fr)
  
+@media screen and (max-width: 480px) 
+  .pokemon-list 
+    display: none
 
 
 

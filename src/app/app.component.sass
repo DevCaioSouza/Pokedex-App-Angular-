@@ -1,9 +1,27 @@
+@import "src/styles.sass"
 
 header
-  height: 80px
-  background-color: red
+  height: 90px
+  background-color: $sea-blue
   font-family: "Poppins"
-  text-align: center
+  color: $grafite
+  border-radius: 8px
+  margin-bottom: 20px
+  line-height: 12px
+
+header h1 
+  position: absolute
+  top: 10px
+  margin-left: 20px
+
+header h4
+  position: absolute
+  margin-top: 60px
+  margin-left: 20px
+  color: $light-gray
+  letter-spacing: 2px
+
+
 
 .carousel 
   max-width: 800px
@@ -17,10 +35,17 @@ header
 
 .carousel img
   margin: 10px 20px
-  border: 1px solid red
   width: 250px
   display: block
 
 @media screen and (max-width: 480px)
   .carousel
+    margin-top: 60px
     display: block
+
+  .carousel img 
+    width: 150px
+
+  header h1
+    font-size: 1rem
+    margin-right: 100px
