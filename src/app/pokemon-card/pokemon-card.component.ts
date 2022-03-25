@@ -13,6 +13,10 @@ export class PokemonCardComponent{
  @Input()
  'numero': number;
 
+@Input()
+'pokemonId': string;
+
+
  pegarImagemPokemon(){
    const numeroFormatado = (this.numero);
 
