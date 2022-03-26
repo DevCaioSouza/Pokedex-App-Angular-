@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { HttpClient } from '@angular/common/http';
+
 
 
 @Component({
@@ -9,6 +11,13 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class AppComponent {
   title = 'angularpokedex';
+
+  //SEARCH BAR
+  'searchTerm': string;
+  'pokemons': ['pokemon'];
+  'term': string;
+
+  constructor(private http: HttpClient) { }
 
   customOptions: OwlOptions = {
     loop: true,

@@ -12,6 +12,8 @@ import {HttpClientModule} from '@angular/common/http'
 import { PokemonService } from './services/pokemon.service';
 import { HeaderComponent } from './components/header/header.component';
 
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { HeaderComponent } from './components/header/header.component';
     AppRoutingModule,
     HttpClientModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    Ng2SearchPipeModule
+    
   ],
   providers: [PokemonService],
   bootstrap: [AppComponent]
