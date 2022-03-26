@@ -1,3 +1,6 @@
+Segue o link para o vídeo de apresentação do aplicativo: <br>
+https://www.youtube.com/watch?v=mXTTEXObvxA&ab_channel=CodeVentura
+
 # Angularpokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
