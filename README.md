@@ -1,4 +1,4 @@
-Segue o link com o Deploy do projeto, para a equipe acessar e testá-lo manualmente
+Segue o link com o Deploy do projeto, para a equipe acessar e testá-lo manualmente<br>
 https://caio-angular-pokedex.netlify.app/
 
 Segue o link para o vídeo de apresentação do aplicativo: <br>
