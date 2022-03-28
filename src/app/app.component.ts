@@ -31,7 +31,7 @@ export class AppComponent {
       0: {
         items: 1 
       },
-      400: {
+      480: {
         items: 2
       },
       760: {
